@@ -41,7 +41,3 @@ jobs:
 
     - name: Install Maven dependencies
       run: mvn install
-
-    - name: Run Maven tests
-      run: |
-        mvn test
